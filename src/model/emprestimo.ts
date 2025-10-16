@@ -69,4 +69,5 @@ class Emprestimo {
     public setStatusEmprestimo(_statusEmprestimo: string): void {
         this.statusEmprestimo = _statusEmprestimo;
     }
+    export default Emprestimo;
 }
