@@ -1,5 +1,5 @@
 class Livro {
-    private id: number;
+    private idLivro: number;
     private titulo: string;
     private autor: string;
     private editora: string;
@@ -11,7 +11,7 @@ class Livro {
     private status: string;
 
     constructor(
-        _id: number,
+        _idLivro: number,
         _titulo: string,
         _autor: string,
         _editora: string,
@@ -22,7 +22,7 @@ class Livro {
         _valorAquisicao: number,
         _status: string,
     ) {
-        this.id = _id;
+        this.idLivro = _idLivro;
         this.titulo = _titulo;
         this.autor = _autor;
         this.editora = _editora;
@@ -35,11 +35,11 @@ class Livro {
     }
 
     public getId(): number {
-    return this.id;
+    return this.idLivro;
   }
 
-   public setId(_id: number): void{
-    this.id = _id;
+   public setId(_idLivro: number): void{
+    this.idLivro = _idLivro;
    }
 
   public getTitulo(): string{

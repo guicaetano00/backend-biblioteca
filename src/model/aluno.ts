@@ -1,5 +1,5 @@
 class Aluno {
-    private id: number;
+    private idAluno: number;
     private ra: string;
     private nome: string;
     private sobrenome: string;
@@ -9,7 +9,7 @@ class Aluno {
     private celular: number;
 
     constructor(
-        _id: number,
+        _idAluno: number,
         _ra: string,
         _nome: string,
         _sobrenome: string,
@@ -18,7 +18,7 @@ class Aluno {
         _email: string,
         _celular: number
     ) {
-        this.id = _id;
+        this.idAluno = _idAluno;
         this.ra = _ra;
         this.nome = _nome;
         this.sobrenome = _sobrenome;
@@ -29,11 +29,11 @@ class Aluno {
     }
 
     public getId(): number {
-    return this.id;
+    return this.idAluno;
   }
 
-   public setId(_id: number): void{
-    this.id = _id;
+   public setId(_idAluno: number): void{
+    this.idAluno = _idAluno;
    }
 
   public getRa(): string{
