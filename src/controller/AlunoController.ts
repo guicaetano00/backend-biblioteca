@@ -1,5 +1,5 @@
 import type { AlunoDTO } from "../interface/AlunoDTO.js";
-import Aluno from "../model/aluno.js";
+import Aluno from "../model/Aluno.js";
 import type { Request, Response } from "express";
 
 class AlunoController extends Aluno {

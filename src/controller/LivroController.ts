@@ -1,4 +1,4 @@
-import Livro from "../model/livro.js";
+import Livro from "../model/Livro.js";
 import type { Request, Response } from "express";
 
 class LivroController extends Livro {
